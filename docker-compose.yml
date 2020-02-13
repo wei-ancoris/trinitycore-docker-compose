@@ -3,7 +3,7 @@ services:
   mysql:
     container_name: tc_db
     environment:
-      CHANGETHIS: &root_pw VALUE
+      CHANGETHIS: &root_pw wow12345
       MYSQL_ROOT_PASSWORD: *root_pw
     image: mysql
     ports:
